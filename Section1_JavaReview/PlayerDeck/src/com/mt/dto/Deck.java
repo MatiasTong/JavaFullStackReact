@@ -43,7 +43,7 @@ public class Deck {
             return cardList;
         } else {
             int size = cardsInDeck.size();
-            throw new Exception("not enough cards left to draw" + size);
+            throw new Exception("Not enough cards left to draw! Only " + size + " card(s) left");
         }
     }
 

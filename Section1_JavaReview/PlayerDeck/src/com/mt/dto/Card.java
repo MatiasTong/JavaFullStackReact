@@ -27,6 +27,14 @@ public class Card {
         this.description = description;
     }
 
+    public int getValue() {
+        return value;
+    }
+
+    public void setValue(int value) {
+        this.value = value;
+    }
+
     @Override
     public String toString() {
         return "Card{" +
