@@ -115,6 +115,7 @@ public class GuessDaoImplTest {
         Guess updatedGuess = new Guess();
         updatedGuess.setGuess("0123");
         updatedGuess.setResult("e:2 p:0");
+        updatedGuess.setTime(guess.getTime());
         updatedGuess.setGuessId(guess.getGuessId());
         updatedGuess.setGameId(game.getGameId());
         guessDao.update(updatedGuess);

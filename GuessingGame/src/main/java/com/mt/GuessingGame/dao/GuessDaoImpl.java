@@ -107,7 +107,7 @@ public class GuessDaoImpl implements GuessDao{
             guess.setGuessId(resultSet.getInt("GuessId"));
             guess.setGameId(resultSet.getInt("GameId"));
             guess.setGuess(resultSet.getString("Guess"));
-            guess.setTime(resultSet.getTimestamp("Time").toLocalDateTime());
+            guess.setTime(resultSet.getObject("Time", LocalDateTime.class));
             guess.setResult(resultSet.getString("Result"));
 
             return guess;

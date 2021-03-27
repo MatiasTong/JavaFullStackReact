@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03da58c0-8175-431f-b408-da1dc0400164" name="Default Changelist" comment="" />
+    <list default="true" id="03da58c0-8175-431f-b408-da1dc0400164" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GoblinTowersGame/src/main/java/Overpowered.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessingGame/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GuessingGame/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessingGame/src/main/java/com/mt/GuessingGame/dao/GameDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GuessingGame/src/main/java/com/mt/GuessingGame/dao/GameDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessingGame/src/main/java/com/mt/GuessingGame/dao/GuessDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GuessingGame/src/main/java/com/mt/GuessingGame/dao/GuessDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessingGame/src/main/java/com/mt/GuessingGame/dto/Guess.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GuessingGame/src/main/java/com/mt/GuessingGame/dto/Guess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessingGame/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../GuessingGame/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessingGame/src/test/java/com/mt/GuessingGame/dao/GameDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GuessingGame/src/test/java/com/mt/GuessingGame/dao/GameDaoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessingGame/src/test/java/com/mt/GuessingGame/dao/GuessDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GuessingGame/src/test/java/com/mt/GuessingGame/dao/GuessDaoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessingGame/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../GuessingGame/src/test/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoblinTowersGame/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/GoblinTowersGame/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoblinTowersGame/src/main/java/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/GoblinTowersGame/src/main/java/Hero.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +35,9 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -50,9 +65,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="15" y="23" key="new project wizard" timestamp="1607363878084">
-      <screen x="0" y="23" width="1280" height="696" />
+    <state x="317" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1610761212175">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="317" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1610761212175" />
+    <state x="15" y="23" key="new project wizard" timestamp="1610761286899">
+      <screen x="0" y="23" width="1280" height="700" />
     </state>
     <state x="15" y="23" key="new project wizard/0.23.1280.696@0.23.1280.696" timestamp="1607363878084" />
+    <state x="15" y="23" key="new project wizard/0.23.1280.700@0.23.1280.700" timestamp="1610761286899" />
   </component>
 </project>

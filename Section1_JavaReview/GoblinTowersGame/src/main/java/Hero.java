@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 
-public class Hero {
+public class Hero implements Overpowered{
     private double HP;
     private final double originalHP;
     private int attackPower;
@@ -22,6 +22,8 @@ public class Hero {
         gold = 0;
         level = 1;
     }
+
+
 
     public void walk(){
         steps+=1;
@@ -133,5 +135,13 @@ public class Hero {
                 ", attack: " + attackPower +
                 ", defense: " + defensePower +
                 " }";
+    }
+
+    public boolean changeHairColor(int value) {
+
+    }
+
+    public boolean shootLaserBeams(int value) {
+        return false;
     }
 }

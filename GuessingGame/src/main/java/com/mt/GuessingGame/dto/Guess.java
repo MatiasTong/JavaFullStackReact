@@ -11,6 +11,7 @@ public class Guess {
     private int gameId;
 
 
+
     public int getGuessId() {
         return guessId;
     }
@@ -59,7 +60,7 @@ public class Guess {
         return guessId == guess1.guessId &&
                 gameId == guess1.gameId &&
                 Objects.equals(guess, guess1.guess) &&
-//                Objects.equals(time, guess1.time) &&
+                Objects.equals(time, guess1.time) &&
                 Objects.equals(result, guess1.result);
     }
 

@@ -6,6 +6,18 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
+
+        Goblin goblin = new Goblin();
+                goblin.setHP(100);
+                goblin.setAttackPower(10);
+                goblin.setDefensePower(10);
+
+        Goblin goblin2 = new Goblin();
+        goblin.setHP(150);
+        goblin.setAttackPower(10);
+        goblin.setDefensePower(10);
+
+
         boolean playAgain = false;
         do {
             Scanner sc = new Scanner(System.in);

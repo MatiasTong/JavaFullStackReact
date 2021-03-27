@@ -15,6 +15,6 @@ public interface GameDao{
     // true if item exists and is updated
     boolean update(Game game);
 
-    // true if item exists and is deleted
-    void deleteById(int id);
+    // true if item exists and is deleted, private, default, protected, public
+    public void deleteById(int id);
 }

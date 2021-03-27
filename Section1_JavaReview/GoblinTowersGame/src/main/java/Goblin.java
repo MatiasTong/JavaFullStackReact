@@ -13,6 +13,8 @@ public class Goblin {
         defensePower = rGen.nextInt(1) + 1;
     }
 
+    
+
     public void attack(Hero hero){
         double damage = (double) attackPower / (double) hero.getDefensePower();
         double newHeroHP = hero.getHP() - damage;
